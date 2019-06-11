@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/dhceshi"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@mipmap/timg"
+            />
+        <ImageView
+            android:id="@+id/srceshi"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@mipmap/xx"
+            android:layout_centerInParent="true"
+            />
+        <ImageView
+            android:id="@+id/dhceshid"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@mipmap/d"
+            android:layout_below="@+id/dhceshi"
+            />
+        <jiankong.jk.makeupanimation.HorChartView
+            android:id="@+id/testcharview"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/srceshi"
+            />
+</RelativeLayout>
