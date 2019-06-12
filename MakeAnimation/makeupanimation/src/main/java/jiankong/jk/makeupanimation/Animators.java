@@ -211,10 +211,10 @@ public class Animators implements AnimationInterface {
         acv.setAnimationDurtion(durtion);
         acv.setTitle(Title);
     }
-
     /**
      * 横轴柱状图
      */
+
     @Override
     public void HorChartView(HorChartView hcv,List<ChartBean> cblist) {
         hcv.init();
