@@ -17,5 +17,22 @@
 
 ![图片失效](img/shiyong.png)
 
+
+![图片失效](img/zhushi.png)
+
 实例化这个类然后调用里面的方法就行了
 
+动画示例
+
+![图片失效](img/dh2.gif)
+
+柱子图的使用方法
+
+![图片失效](img/zhuzishiyong.gif)
+
+
+![图片失效](img/horzhuzi.gif)
+
+柱子图示例
+
+![图片失效](img/zhuzi2.gif)
