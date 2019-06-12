@@ -28,10 +28,10 @@
 
 柱子图的使用方法
 
-![图片失效](img/zhuzishiyong.gif)
+![图片失效](img/zhuzishiyong.png)
 
 
-![图片失效](img/horzhuzi.gif)
+![图片失效](img/horzhuzi.png)
 
 柱子图示例
 
