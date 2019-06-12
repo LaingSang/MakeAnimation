@@ -16,7 +16,7 @@ import jiankong.jk.makeupanimation.Animators;
 import jiankong.jk.makeupanimation.setAniamtionChartClickListener;
 
 public class AcAnimationApply extends Activity {
-    private AnimationChartView zzt1;
+    private AnimationChartView acv;
     Animators animators=new Animators();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,7 +25,7 @@ public class AcAnimationApply extends Activity {
         init();
     }
     private void init(){
-        zzt1 =  findViewById(R.id.zzt1);
+        acv =  findViewById(R.id.zzt1);
 
         final List<HashMap<String,String>> list = new ArrayList<>();
         HashMap<String,String> map5 = new HashMap<>();
@@ -48,7 +48,7 @@ public class AcAnimationApply extends Activity {
         map8.put("value", "2500");
         map8.put("unit", "X");
         list.add(map8);
-        animators.setAnimationChartViewDatas(zzt1,list,"test",7000);
+        animators.setAnimationChartViewDatas(acv,list,"test",7000);
 
 
     }

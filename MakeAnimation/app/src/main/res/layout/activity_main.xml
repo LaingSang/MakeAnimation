@@ -22,9 +22,9 @@
             />
         <ImageView
             android:id="@+id/dhceshid"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:background="@mipmap/d"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@mipmap/mb"
             android:layout_below="@+id/dhceshi"
             />
         <jiankong.jk.makeupanimation.HorChartView

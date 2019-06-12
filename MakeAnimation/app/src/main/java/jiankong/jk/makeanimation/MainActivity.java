@@ -32,5 +32,10 @@ public class MainActivity extends Activity {
         animators.ATanimaotion(imgdhceshi,false,800,0,500);
         animators.LoopRotaAnimaotion(imgsrceshi,0,-360);
         animators.ExplosionAniamtion(this,imgsrceshiD,true);
+        List<ChartBean> chartBeans=new ArrayList<>();
+        chartBeans.add(new ChartBean(10,"x1"));
+        chartBeans.add(new ChartBean(20,"x2"));
+        chartBeans.add(new ChartBean(30,"x3"));
+        animators.HorChartView(hcv,chartBeans);
     }
 }
