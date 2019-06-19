@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MywheelView</string>
+    <string name="cancel">取消</string>
+    <string name="finish">完成</string>
+    <string name="please_select_a_province_or_city">请选择省市</string>
+</resources>

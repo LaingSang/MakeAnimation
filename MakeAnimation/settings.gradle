@@ -1,1 +1,1 @@
-include ':app', ':makeupanimation'
+include ':app', ':makeupanimation', ':mywheelview', ':mydatapicker'

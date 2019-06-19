@@ -10,6 +10,8 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/makeupanimation" />
+            <option value="$PROJECT_DIR$/mydatapicker" />
+            <option value="$PROJECT_DIR$/mywheelview" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
