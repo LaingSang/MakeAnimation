@@ -1,4 +1,5 @@
 package jiankong.jk.makeupanimation;
+
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -16,6 +17,7 @@ import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.widget.ImageView;
 
+
 @SuppressLint("AppCompatCustomView")
 public class CircleImageView extends ImageView {
 
@@ -25,7 +27,7 @@ public class CircleImageView extends ImageView {
     private static final int COLORDRAWABLE_DIMENSION = 1;
 
     private static final int DEFAULT_BORDER_WIDTH = 0;
-    private static final int DEFAULT_BORDER_COLOR = Color.BLACK;
+    private static final int DEFAULT_BORDER_COLOR = Color.WHITE;
 
     private final RectF mDrawableRect = new RectF();
     private final RectF mBorderRect = new RectF();

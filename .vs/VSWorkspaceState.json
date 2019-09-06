@@ -1,6 +1,5 @@
 {
   "ExpandedNodes": [
-    "",
     "\\MakeAnimation",
     "\\MakeAnimation\\app",
     "\\MakeAnimation\\app\\src",
@@ -11,6 +10,5 @@
     "\\MakeAnimation\\app\\src\\main\\res",
     "\\MakeAnimation\\app\\src\\main\\res\\layout"
   ],
-  "SelectedNode": "\\MakeAnimation\\gradle",
   "PreviewInSolutionExplorer": false
 }

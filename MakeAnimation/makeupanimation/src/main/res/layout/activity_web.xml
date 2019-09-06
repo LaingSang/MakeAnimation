@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+     <com.tencent.smtt.sdk.WebView
+         android:id="@+id/xm_web"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"></com.tencent.smtt.sdk.WebView>
+     <RelativeLayout
+         android:id="@+id/loading_rea"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+          <View
+              android:id="@+id/zz"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#50000000"
+              />
+          <ImageView
+              android:id="@+id/loading"
+              android:layout_width="50dp"
+              android:layout_height="50dp"
+              android:src="@mipmap/jz"
+              android:layout_centerInParent="true"
+              />
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="加载中"
+              android:layout_below="@+id/loading"
+              android:layout_centerHorizontal="true"
+              android:layout_marginTop="10sp"
+              android:textSize="18sp"
+              android:textColor="#ffffff"
+              />
+     </RelativeLayout>
+</RelativeLayout>
