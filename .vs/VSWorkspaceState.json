@@ -1,7 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\img"
+    "\\MakeAnimation",
+    "\\MakeAnimation\\app",
+    "\\MakeAnimation\\app\\src",
+    "\\MakeAnimation\\app\\src\\main",
+    "\\MakeAnimation\\app\\src\\main\\java",
+    "\\MakeAnimation\\app\\src\\main\\java\\jiankong",
+    "\\MakeAnimation\\app\\src\\main\\java\\jiankong\\jk",
+    "\\MakeAnimation\\app\\src\\main\\res",
+    "\\MakeAnimation\\app\\src\\main\\res\\layout"
   ],
+  "SelectedNode": "\\MakeAnimation\\gradle",
   "PreviewInSolutionExplorer": false
 }
