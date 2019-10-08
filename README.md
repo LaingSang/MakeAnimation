@@ -2,7 +2,8 @@
  集合了一些方便个人使用的各种方法
  ## 4.0添加内容
  首先导入
-   implementation 'com.squareup.retrofit2:retrofit:2.1.0'
+ 
+    implementation 'com.squareup.retrofit2:retrofit:2.1.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
     implementation 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
     implementation 'com.squareup.okhttp3:okhttp:3.10.0'
