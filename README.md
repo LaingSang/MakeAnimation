@@ -1,5 +1,5 @@
-# MakeAnimation
-个人使用的一些动画 目前只集合了淡入淡出平移动画，原地无限旋转动画，粒子爆破动画，一个带动画的柱状图，圆形图片view等功能
+# Make
+ 集合了一些方便个人使用的各种方法
  ## 4.0添加内容
  首先导入
    implementation 'com.squareup.retrofit2:retrofit:2.1.0'
@@ -83,6 +83,28 @@
 
             }
         });
+## 2.0添加内容
+   此版本主要添加了一些自定义控件使用方法为如下
+   ### 背景渐变控件GradualCircularView XML使用方法和普通ImgaveView一样
+        GradualCircularView gradualCircularView=new GradualCircularView(this);
+        int[] colors=new int[]{Color.parseColor("#ff0ff"),Color.parseColor("#ff00f"),Color.parseColor("#ff000")};
+        gradualCircularView.isGradud(true,colors);
+   ### 不冲突的下拉刷新ShuaXinScr 使用方法和LinearLayout类似
+   ### 可以滚动的下拉选择WheelView XML使用方法直接在需要的地方放置
+    WheelView whee=v.findViewById(R.id.item_wheelview_city);
+        whee.setOffset(1);
+        whee.setItems(list);
+        whee.setSeletion(1);
+        whee.setOnWheelViewListener(new WheelView.OnWheelViewListener() {
+            @Override
+            public void onSelected(int selectedIndex, String item) {
+                xuanz[0] =item;
+                z[0]=selectedIndex;
+            }
+        });
+   ### 一个带边框的颜色块ColorChunk XML使用方法直接在需要的地方放置
+   ColorChunk chunk=new ColorChunk(this);
+   chunk.setColor(i_region_bean.getBackground());
 ## 主要使用方法为
 	allprojects {
 		repositories {
