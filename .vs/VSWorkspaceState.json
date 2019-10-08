@@ -1,6 +1,16 @@
 {
   "ExpandedNodes": [
-    "\\MakeAnimation"
+    "",
+    "\\MakeAnimation",
+    "\\MakeAnimation\\app",
+    "\\MakeAnimation\\app\\src",
+    "\\MakeAnimation\\app\\src\\main",
+    "\\MakeAnimation\\app\\src\\main\\java",
+    "\\MakeAnimation\\app\\src\\main\\java\\jiankong",
+    "\\MakeAnimation\\app\\src\\main\\java\\jiankong\\jk",
+    "\\MakeAnimation\\app\\src\\main\\java\\jiankong\\jk\\makeanimation",
+    "\\MakeAnimation\\app\\src\\main\\res"
   ],
+  "SelectedNode": "\\MakeAnimation\\app\\src\\main\\java\\jiankong\\jk",
   "PreviewInSolutionExplorer": false
 }
