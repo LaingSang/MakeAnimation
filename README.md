@@ -105,6 +105,7 @@
    ### 一个带边框的颜色块ColorChunk XML使用方法直接在需要的地方放置
    ColorChunk chunk=new ColorChunk(this);
    chunk.setColor(i_region_bean.getBackground());
+ ## 1.0内容
 ## 主要使用方法为
 	allprojects {
 		repositories {
