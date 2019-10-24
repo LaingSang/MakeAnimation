@@ -1,6 +1,7 @@
 package jiankong.jk.makeanimation;
 
 import android.app.Activity;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.widget.ImageView;
 
@@ -9,6 +10,7 @@ import java.util.List;
 
 import jiankong.jk.makeupanimation.Animators;
 import jiankong.jk.makeupanimation.ChartBean;
+import jiankong.jk.makeupanimation.GradualCircularView;
 import jiankong.jk.makeupanimation.HorChartView;
 import jiankong.jk.makeupanimation.HttpTools;
 import jiankong.jk.makeupanimation.WsConn;
@@ -84,5 +86,8 @@ public class MainActivity extends Activity {
         WsConn wsConn=new WsConn();
         wsConn.connToWsService(this,ws,wsStatusListener,"");
 
+        GradualCircularView gradualCircularView=new GradualCircularView(this);
+        int[] colors=new int[]{Color.parseColor("#ff0ff"),Color.parseColor("#ff00f"),Color.parseColor("#ff000")};
+        gradualCircularView.isGradud(true,colors);
     }
 }

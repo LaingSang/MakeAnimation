@@ -192,6 +192,14 @@ public class ShuaXinScr extends LinearLayout {
         // 由于是线性布局可以直接添加,只要AdapterView的高度是MATCH_PARENT,那么footer view就会被添加到最后,并隐藏
         addView(mFooterView, params);
     }
+    public void setShangFottIconTextColor(int bg,int Color){
+        mFooterImageView.setBackgroundResource(bg);
+        mFooterTextView.setTextColor(Color);
+    }
+    public void setXiaFottIcon(int bg,int Color){
+        mHeaderImageView.setBackgroundResource(bg);
+        mHeaderTextView.setTextColor(Color);
+    }
     public void setHideShow(boolean ishs){
         if (ishs==true){
             mFooterView.setVisibility(GONE);

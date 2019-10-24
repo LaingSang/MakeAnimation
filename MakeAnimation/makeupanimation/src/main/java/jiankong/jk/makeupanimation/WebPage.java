@@ -85,7 +85,9 @@ public class WebPage extends Activity {
         //进入就加载的网址
         Urls(bundle.getString("Urls"),web);
     }
-
+    public void setLoadIcon(int bg){
+        loading.setBackgroundResource(bg);
+    }
     //初始化Web
     private void initWeb(WebView wbv){
         // TODO Auto-generated method stub

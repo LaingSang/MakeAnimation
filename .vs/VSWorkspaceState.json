@@ -2,15 +2,16 @@
   "ExpandedNodes": [
     "",
     "\\MakeAnimation",
-    "\\MakeAnimation\\app",
-    "\\MakeAnimation\\app\\src",
-    "\\MakeAnimation\\app\\src\\main",
-    "\\MakeAnimation\\app\\src\\main\\java",
-    "\\MakeAnimation\\app\\src\\main\\java\\jiankong",
-    "\\MakeAnimation\\app\\src\\main\\java\\jiankong\\jk",
-    "\\MakeAnimation\\app\\src\\main\\java\\jiankong\\jk\\makeanimation",
-    "\\MakeAnimation\\app\\src\\main\\res"
+    "\\MakeAnimation\\makeupanimation",
+    "\\MakeAnimation\\makeupanimation\\src",
+    "\\MakeAnimation\\makeupanimation\\src\\main",
+    "\\MakeAnimation\\makeupanimation\\src\\main\\java",
+    "\\MakeAnimation\\makeupanimation\\src\\main\\java\\jiankong",
+    "\\MakeAnimation\\makeupanimation\\src\\main\\java\\jiankong\\jk",
+    "\\MakeAnimation\\makeupanimation\\src\\main\\java\\jiankong\\jk\\makeupanimation",
+    "\\MakeAnimation\\makeupanimation\\src\\main\\java\\jiankong\\jk\\makeupanimation\\ws",
+    "\\MakeAnimation\\makeupanimation\\src\\main\\res",
+    "\\MakeAnimation\\makeupanimation\\src\\main\\res\\layout"
   ],
-  "SelectedNode": "\\MakeAnimation\\app\\src\\main\\java\\jiankong\\jk",
   "PreviewInSolutionExplorer": false
 }
