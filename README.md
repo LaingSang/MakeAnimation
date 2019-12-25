@@ -17,7 +17,7 @@
 	}
     
       dependencies {
-	        implementation 'com.github.LaingSang.MakeAnimation:makeupanimation:4.0'
+	         implementation 'com.github.LaingSang.MakeAnimation:makeupanimation:4336751d80'
 	}
  添加了Ws快速链接方法,Retrofit快速设置方法和一大堆实用的工具类具体使用方法如下
   ## Ws调用
