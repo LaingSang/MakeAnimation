@@ -21,7 +21,7 @@
             android:value="true" />
         <meta-data
             android:name="xposeddescription"
-            android:value="tpay" />
+            android:value="name" />
         <meta-data
             android:name="xposedminversion"
             android:value="82" />
