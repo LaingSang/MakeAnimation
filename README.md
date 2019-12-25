@@ -1,5 +1,36 @@
 # Make
  集合了一些方便个人使用的各种方法
+  ## 4.1添加内容
+      compileOnly 'de.robv.android.xposed:api:82'
+      allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+    
+      dependencies {
+	         implementation 'com.github.LaingSang.MakeAnimation:makeupanimation:4.1'
+	}
+     hook基础用法
+     在main目录下面添加assets文件夹并新建文件xposed_init
+     并在文件里填写xxx.xxx.xxx.xxHookMain字段
+     在xml添加  
+     <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+        <meta-data
+            android:name="xposeddescription"
+            android:value="tpay" />
+        <meta-data
+            android:name="xposedminversion"
+            android:value="82" />
+      基础创建方法到此结束
+      
+      接下来是添加的方法
+      新建
+      HookDiaoYong dy=new HookDiaoYong();
+      里面的方法,只要你是中国人肯定能看得懂
  ## 4.0添加内容
  首先导入
  
