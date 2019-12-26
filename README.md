@@ -1,6 +1,11 @@
 # Make
  集合了一些方便个人使用的各种方法
   ## 4.1添加内容
+  在 app 的 build.gradle 中加入代码：
+configurations {
+    	all*.exclude group: 'com.google.code.gson'
+}	
+  
       compileOnly 'de.robv.android.xposed:api:82'
       allprojects {
 		repositories {
